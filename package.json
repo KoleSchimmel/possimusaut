@@ -1,0 +1,56 @@
+{
+  "name": "possimusaut",
+  "version": "1.0.0",
+  "description": "A require hook to compile CSS Modules on the fly",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "dependencies": {
+    "lodash.assign": "^3.2.0",
+    "lodash.identity": "^3.0.0",
+    "lodash.isarray": "^3.0.4",
+    "lodash.isfunction": "^3.0.6",
+    "lodash.isstring": "^3.0.1",
+    "lodash.pick": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "babel-eslint": "^4.0.5",
+    "css-modules-loader-core": "0.0.12",
+    "eslint": "^1.0.0",
+    "eslint-config-airbnb": "0.0.7",
+    "eslint-config-airbnb-lite": "^1.0.3",
+    "eslint-watch": "^1.2.4",
+    "in-publish": "^2.0.0",
+    "isparta": "^3.0.3",
+    "lodash": "^3.10.1",
+    "mocha": "^2.2.5",
+    "postcss": "4.x",
+    "postcss-modules-extract-imports": "0.x",
+    "postcss-modules-local-by-default": "0.x",
+    "postcss-modules-scope": "0.x",
+    "precommit-hook": "^3.0.0"
+  },
+  "peerDependencies": {
+    "postcss": ">=4.x",
+    "postcss-modules-extract-imports": ">=0.x",
+    "postcss-modules-local-by-default": ">=0.x",
+    "postcss-modules-scope": ">=0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoleSchimmel/possimusaut.git"
+  },
+  "keywords": [
+    "css-modules",
+    "nisi",
+    "hook"
+  ],
+  "author": "KylieSimonis",
+  "license": "MIT",
+  "homepage": "https://github.com/KoleSchimmel/possimusaut.git",
+  "pre-commit": [
+    "test"
+  ]
+}
